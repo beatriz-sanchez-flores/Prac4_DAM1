@@ -16,4 +16,6 @@ Normalmente, esta tarea es un poco sencilla si ya tiene experiencia instalando p
 
 3.	Sigue los pasos del asistente de configuración en Android Studio y asegúrate de instalar los paquetes de SDK que recomiende.
 
-
+## Después de la instalación compruebe lo siguiente, si le falta algo complete lo necesario:
+ * Verifique que ya cuente con el JDK de Java en cualquier versión
+ 
