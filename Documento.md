@@ -157,7 +157,7 @@ En Android Studio, seleccione Herramientas > Android > Administrador de AVD o ha
 
 Haga clic en + Crear dispositivo virtual. Aparece la ventana Seleccionar hardware que muestra una lista de dispositivos de hardware preconfigurados. Para cada dispositivo, la tabla proporciona una columna para su tamaño de visualización diagonal (Tamaño), resolución de pantalla en píxeles (Resolución) y densidad de píxeles (Densidad).
 
-<img src="Medios\23.PNG"/>
+<img src="Medios\23.png"/>
 
 En este caso yo usaré el pixel 3
 
