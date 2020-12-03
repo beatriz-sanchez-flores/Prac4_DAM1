@@ -185,9 +185,50 @@ La ejecución la realice con mi celular
 
 En la ventana Seleccionar destino de implementación, en Dispositivos virtuales disponibles, seleccione el dispositivo virtual que acaba de crear y haga clic en Aceptar.
 
+<img src="Medios\28.PNG"/>
+
+La ejecucion la estoy realizando desde un dispositivo movil.
+
+* Este paso puede variar por si tiene un dispositivo predeterminado seleccionado
+
+<img src="Medios\29.jpg"/>
+
+* Cuando finalice puede observar un resultado semejante al siguiente:
+
 <img src="Medios\1.jpg"/>
 
-* En la ventana Seleccionar destino de implementación, en Dispositivos virtuales disponibles, seleccione el dispositivo virtual que acaba de crear y haga clic en Aceptar.
+### Ejecute la aplicación en un dispositivo físico
+
+* Muestre todos los pasos necesarios para ejecutar su aplicación utilizando su dispositivo físico
+
+Desde mi dispositivo movil en la imagen anterior está, donde se ha ejecutado de una forma muy bien.
+
+* Encienda la depuración USB en su dispositivo físico
+
+<img src="Medios\30.jpg"/>
+
+* Ejecute la aplicación en su dispositivo físico
+
+### Cambiar la configuración de Gradle de la aplicación
+
+* Cambiar la versión mínima del SDK para la aplicación
 
 
 
+* Encuentre el fichero build.gradle (Module:app)
+
+<img src="Medios\30.PNG"/>
+
+* Busque la propiedad minSdkVersion a un nivel más bajo
+
+<img src="Medios\29.PNG"/>
+
+* Sincronice la nueva configuración de Gradle
+
+<img src="Medios\31.PNG"/>
+
+### Utilice instrucciones de Log para su aplicación
+
+* Ver el panel logcat y sus diferentes opciones de vista
+
+* Establecer una instrucción en el código Kotlin para imprimir en el log de la aplicación
