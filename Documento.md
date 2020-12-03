@@ -98,3 +98,67 @@ La primera vez que se crea un proyecto de aplicación, el panel Proyecto > Andro
 
 * Si la carpeta Scripts de Gradle no está expandida, haga clic en el triángulo para expandirla.
 
+En la imagen anterior sale con todos los archivos por que ya esta desplegada.
+
+* Busque el archivo build.gradle (Project: Hello_World).
+
+<img src="Medios\13.PNG"/>
+
+Aquí es donde encontrará las opciones de configuración que son comunes a todos los módulos que componen su proyecto. Cada proyecto de Android Studio contiene un único archivo de compilación Gradle de nivel superior. La mayoría de las veces no necesitará realizar ningún cambio en este archivo, pero sigue siendo útil para entender su contenido.
+
+* Busque el archivo build.gradle(Module:app).
+
+<img src="Medios\14.PNG"/>
+<img src="Medios\15.PNG"/>
+
+Dentro del build.gradle(Module:app) esta su código correspondiente.
+
+### Explorar la aplicación y la carpeta res
+
+Lo primero que se hace es expandir la carpeta, para que nos salgan todos los archivo.
+
+<img src="Medios\16.PNG"/>
+
+Todo el código y los recursos de la aplicación se encuentran dentro de las carpetas app y res.
+
+* Expanda la carpeta de la aplicación, la carpeta java y la carpeta com.example.android.helloworld para ver el archivo java MainActivity. Al hacer doble clic en el archivo se abre en el editor de código.
+
+<img src="Medios\17.PNG"/>
+<img src="Medios\18.PNG"/>
+
+Ahí esta su código correspondiente. 
+
+* Expanda la carpeta res y la carpeta de diseño y haga doble clic en el archivo activity_main.xml para abrirlo en el editor de diseño.
+
+<img src="Medios\6.PNG"/>
+
+### Explorar la carpeta de manifiestos
+* Expanda la carpeta de manifiestos.
+
+<img src="Medios\19.PNG"/>
+
+* Abra el archivo AndroidManifest.xml.
+
+<img src="Medios\20.PNG"/>
+
+## En cada uno de estos ficheros, indique para que se utilizan en el proyecto Android
+
+### Tarea 1.3: Use un AVD (Android Virtual Device)
+
+Usará el administrador de dispositivos virtuales Android (AVD) para crear un dispositivo virtual (también conocido como emulador) que simula la configuración de un tipo determinado de dispositivo Android y usar ese dispositivo virtual para ejecutar la aplicación.
+
+### Crear un dispositivo virtual de Android (AVD)
+
+En Android Studio, seleccione Herramientas > Android > Administrador de AVD o haga clic en el icono Administrador de AVD en la barra de herramientas. Aparecerá la pantalla Sus dispositivos virtuales. Si ya ha creado dispositivos virtuales, la pantalla los muestra (como se muestra en la figura siguiente); de lo contrario se ve una lista en blanco.
+
+
+<img src="Medios\21.PNG"/>
+<img src="Medios\22.PNG"/>
+
+Haga clic en + Crear dispositivo virtual. Aparece la ventana Seleccionar hardware que muestra una lista de dispositivos de hardware preconfigurados. Para cada dispositivo, la tabla proporciona una columna para su tamaño de visualización diagonal (Tamaño), resolución de pantalla en píxeles (Resolución) y densidad de píxeles (Densidad).
+
+<img src="Medios\23.PNG"/>
+
+En este caso yo usaré el pixel 3
+
+* Haga clic en la pestaña Recomendado si aún no está seleccionada y elija qué versión del sistema Android se ejecutará en el dispositivo virtual (como Pie).
