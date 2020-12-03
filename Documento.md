@@ -153,12 +153,41 @@ En Android Studio, seleccione Herramientas > Android > Administrador de AVD o ha
 
 
 <img src="Medios\21.PNG"/>
-<img src="Medios\22.PNG"/>
+<img src="Medios\23.PNG"/>
 
 Haga clic en + Crear dispositivo virtual. Aparece la ventana Seleccionar hardware que muestra una lista de dispositivos de hardware preconfigurados. Para cada dispositivo, la tabla proporciona una columna para su tamaño de visualización diagonal (Tamaño), resolución de pantalla en píxeles (Resolución) y densidad de píxeles (Densidad).
 
-<img src="Medios\23.png"/>
+<img src="Medios\22.png"/>
 
 En este caso yo usaré el pixel 3
 
 * Haga clic en la pestaña Recomendado si aún no está seleccionada y elija qué versión del sistema Android se ejecutará en el dispositivo virtual (como Pie).
+
+<img src="Medios\24.png"/>
+
+Hay muchas más versiones disponibles que las que se muestran en la pestaña Recomendado. Mira las pestañas Imágenes x86 y Otras imágenes para verlas.
+
+<img src="Medios\27.PNG"/>
+
+Si un vínculo de descarga está visible junto a una imagen del sistema que desea utilizar, aún no está instalado. Haga clic en el vínculo para iniciar la descarga y haga clic en Finalizar cuando haya terminado.
+
+* Después de elegir una imagen del sistema, haga clic en Siguiente. Aparece la ventana Dispositivo virtual Android (AVD). También puede cambiar el nombre del AVD. Compruebe la configuración y haga clic en Finalizar.
+
+<img src="Medios\25.PNG"/>
+<img src="Medios\26.PNG"/>
+Ahi estan algunos de las varios api que hay
+
+### Ejecute la aplicación en el dispositivo virtual
+
+* En Android Studio, elija Run > Ejecutar aplicación o haga clic en el icono Ejecutar de la barra de herramientas.
+
+La ejecución la realice con mi celular 
+
+En la ventana Seleccionar destino de implementación, en Dispositivos virtuales disponibles, seleccione el dispositivo virtual que acaba de crear y haga clic en Aceptar.
+
+<img src="Medios\1.jpg"/>
+
+* En la ventana Seleccionar destino de implementación, en Dispositivos virtuales disponibles, seleccione el dispositivo virtual que acaba de crear y haga clic en Aceptar.
+
+
+
